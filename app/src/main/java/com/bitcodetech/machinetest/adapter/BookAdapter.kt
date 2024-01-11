@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bitcodetech.machinetest.R
 import com.bitcodetech.machinetest.databinding.BookViewBinding
-import com.bitcodetech.machinetest.details.models.BookDetails
 import com.bitcodetech.machinetest.fragments.BookFragment
 import com.bitcodetech.machinetest.models.Book
 import com.bumptech.glide.Glide

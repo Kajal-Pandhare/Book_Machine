@@ -1,6 +1,5 @@
 package com.bitcodetech.machinetest.network
 
-import com.bitcodetech.machinetest.details.models.BookDetailsResponse
 import com.bitcodetech.machinetest.models.BookResponse
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

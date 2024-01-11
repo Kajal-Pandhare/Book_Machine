@@ -16,30 +16,45 @@
         <ImageView
             image_url="@{book.image}"
             android:id="@+id/imgBook"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
 
         <TextView
             android:text="@{book.title}"
             android:id="@+id/txtSubTitle"
             android:textSize="20sp"
+            android:textStyle="bold"
             android:padding="5dp"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
+            android:text="@{book.price}"
             android:id="@+id/txtPrice"
             android:textSize="20sp"
             android:padding="5dp"
+            android:textStyle="bold"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
+            android:text="@{book.subtitle}"
+            android:id="@+id/txtSubtitle"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@{book.isbn13}"
             android:id="@+id/txtUrl"
             android:textSize="20sp"
             android:padding="5dp"
+            android:textStyle="bold"
             android:layout_margin="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
