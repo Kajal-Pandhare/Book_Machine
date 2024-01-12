@@ -28,6 +28,9 @@ class BookDetailsFragment : Fragment() {
             book = requireArguments().getSerializable("books") as Book
             binding.book = book
         }
+        binding.root.setOnClickListener{
+
+        }
 
         return binding.root
     }

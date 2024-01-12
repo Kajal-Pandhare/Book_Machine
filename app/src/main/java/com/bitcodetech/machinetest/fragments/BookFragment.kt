@@ -69,6 +69,7 @@ class BookFragment : Fragment() {
             .add(R.id.mainContainer,bookDetailsFragment,null)
             .addToBackStack(null)
             .commit()
+
     }
     private fun initAdapter(){
         bookAdapter = BookAdapter(bookViewModel.books)
