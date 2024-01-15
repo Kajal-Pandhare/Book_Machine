@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bitcodetech.machinetest.R
 import com.bitcodetech.machinetest.adapter.BookAdapter
 import com.bitcodetech.machinetest.databinding.BookFragmentBinding
-import com.bitcodetech.machinetest.details.fragments.BookDetailsFragment
 import com.bitcodetech.machinetest.factory.BookViewModelFactory
 import com.bitcodetech.machinetest.models.Book
 import com.bitcodetech.machinetest.network.BookApiService

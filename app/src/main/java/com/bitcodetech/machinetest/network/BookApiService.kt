@@ -14,10 +14,8 @@ interface BookApiService {
 
     companion object{
         private var bookApiService : BookApiService? = null
-
         fun getInstance() : BookApiService{
             if (bookApiService == null){
-
                 val interceptor = HttpLoggingInterceptor()
                 interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
                 val client =  OkHttpClient.Builder().addInterceptor(interceptor).build();

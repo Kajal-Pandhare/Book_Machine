@@ -1,4 +1,4 @@
-package com.bitcodetech.machinetest.details.fragments
+package com.bitcodetech.machinetest.fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
